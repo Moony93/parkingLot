@@ -48,7 +48,7 @@ public class Garage {
 
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
 		Garage g = new Garage();
 		
 		Car Y = new Car("Lancia", 2007, 1350, 3, "Diesel");
@@ -65,6 +65,9 @@ public class Garage {
 		
 		g.printGarageStatus();
 
+		g.removeVehicle(1);
+
+		g.printGarageStatus();
 	}
 
 }
